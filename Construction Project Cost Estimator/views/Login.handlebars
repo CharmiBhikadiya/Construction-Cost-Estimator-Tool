@@ -1,0 +1,17 @@
+<div>
+    <h1>Construction Cost Estimation</h1>
+</div>
+<div id="login_form">
+    <h2>Login</h2>
+    <form action="/login" method="post">
+        <input type="text" name="e-mail" id="un" placeholder="Email" required aria-label="E-mail"><br>
+        <input type="password" name="password" id="pwd" pattern= "^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" placeholder="Password" required aria-label="Password" title="Password must contain atleast one Uppercase,one Lowercase and one Number"><br>
+        <section>
+        <input type="radio" name="User_type" value="Vendor" aria-label="Vendor" id="vlogin" required> Vendor
+        <input type="radio" name="User_type" value="Estimator" aria-label="Estimator" id="elogin" required> Estimator<br>
+        </section>
+        <p>{{errors}}</p>
+        <input type="submit" value="Login" id="login_button">
+        <center><a href="/signup" id="new_account" align="center">Click here to make new Account</a></center>
+    </form>
+</div>

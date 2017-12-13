@@ -1,0 +1,35 @@
+<div>
+    <h1>Construction Cost Estimation</h1>
+</div>
+<div id="edit_logout">
+    <label id="vendor_name">Megh Vankawala</label><br>
+    <a href="/profile_vendor">Edit profile</a>
+    <a href="/logout">Logout</a>
+</div><br>
+<div id="wrapper">
+    <table align='center' cellspacing=2 cellpadding=5 id="data_table">
+        <thead>
+        <tr id="table-heading">
+            <th>Item Name</th>
+            <th>Description</th>
+            <th>UnitCost</th>
+            <th>inStock</th>
+            <th>Discount</th>
+            <th>Discount Quantity</th>
+        </tr>
+        </thead>
+        <tbody id="table-entry">
+        <tr id="row1">
+            <td><input type="text" id="name"></td>
+            <td><input type="text" id="description"></td>
+            <td><input type="number" id="unitCost"></td>
+            <td><input type="number" id="inStock"></td>
+            <td><input type="number" id="discount"></td>
+            <td><input type="number" id="discountQty"></td>
+            <td>
+                <input type="button" class="add" onclick="add_row();" value="Add Item" id="add_item">
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>

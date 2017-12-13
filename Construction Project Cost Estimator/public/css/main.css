@@ -1,0 +1,190 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+
+.m1{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;  
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+#Sign_up_form
+{
+    margin: auto;
+    width: 300px;
+    border: 20px solid royalblue;
+    padding: 25px;
+    padding-top: 0px;
+    background-color: #d9d9d9;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    z-index: 1;
+    border-radius: 10px;
+}
+#login_form
+{
+    margin: auto;
+    width: 250px;
+    border: 25px solid royalblue;
+    padding: 25px;
+    background-color: #d9d9d9;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    z-index: 1;
+    border-radius: 10px;
+}
+#signup_button,#login_button
+{
+    border: 0px;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    height: 36px;
+    padding: 0 8px;
+    background: royalblue;
+
+}
+#login_button:hover,#login_button:active,#login_button:focus {
+    border: 0px;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+    background: cadetblue;
+
+}
+#signup_button:hover,#signup_button:active,#signup_button:focus {
+    border: 0px;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+    background: cadetblue;
+
+}
+
+#fn,#pwd,#em,#ln,#cp,#cn,#un,#zc
+{
+    height: 24px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    padding:  3px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+h2
+{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2.0em;
+    padding-top: 0px;
+    color: darkblue;
+}
+
+h1
+{
+    font-weight: 200;
+    text-align: center;
+    font-size: 3.0em;
+    padding-top: 0px;
+    font-weight: bold;
+    color: cornflowerblue;
+}
+#footer_text
+{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 1.0em;
+    color: darkblue;
+}
+
+#new_account
+{
+text-align: center;
+}
+
+section
+{
+    color:darkblue;
+}
+
+#data_table
+{
+    color:darkblue;
+}
+#edit_logout
+{
+    margin-left: 1150px;
+}
+
+#profile_table
+{
+    margin-left: 550px;
+    margin-top: 100px;
+    width: 250px;
+    border: 25px solid royalblue;
+    padding: 25px;
+    padding-top: 0px;
+    background-color: #d9d9d9;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+    #login_form {
+        margin: auto;
+        width: auto;
+        border: 25px solid royalblue;
+        padding: 25px;
+        background-color: #d9d9d9;
+        border-radius: 10px;
+    }
+    #Sign_up_form {
+        margin: auto;
+        width: auto;
+        border: 20px solid royalblue;
+        padding: 25px;
+        padding-top: 0px;
+        background-color: #d9d9d9;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        z-index: 1;
+        border-radius: 10px;
+    }
+    
+}
+
+@media (max-width: 800px) and (min-width: 501px) {
+    #login_form {
+        margin: auto;
+        width: 250px;
+        border: 25px solid royalblue;
+        padding: 25px;
+        background-color: #d9d9d9;
+        border-radius: 10px;
+    }
+    
+}
+
+@media (min-width: 800px) {
+    #login_form {
+        margin: auto;
+        width: 350px;
+        border: 25px solid royalblue;
+        padding: 25px;
+        background-color: #d9d9d9;
+        border-radius: 10px;
+    }
+   
+}
+
+
